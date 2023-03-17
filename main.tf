@@ -1,23 +1,7 @@
-terraform {
-  required_providers {
-    aws = {
-      source = "hashicorp/aws"
-      version = "4.58.0"
-    }
-  }
-}
-
-provider "aws" {
-  region     = "us-east-1"
-  
-  }
-
-
-resource "aws_instance" "ec2_example" {
-    ami = "ami-0557a15b87f6559cf"
-    instance_type = "t2.micro"
+resource "aws_instance" "instance1" {
+    ami = var.ami
+    instance_type = var.instance_type
     tags = {
-      Name = "EC2_instance"
+      Name = var.name_tag
     }
 }
-

@@ -1,6 +1,6 @@
 variable "ami" {
    type        = string
-   description = "AMI ID of Ubuntu machine in N. Virginia Region"
+   description = "AMI ID of Ubuntu machine in N. Virginia (us-east-1) Region"
    default     = "ami-0557a15b87f6559cf"
 }
 

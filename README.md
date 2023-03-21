@@ -20,7 +20,7 @@
       2.2) Manager Jenkins-----> Manage Plugins----> search for Terraform-----Install without restart
       
       2.3) For Jenkins to work with terraform plugin, Terraform binary must be installed. 
-            Manage Jenkins-------> Global Tool Configuration----->Terraform---->uncheck auto install----->Provide name and terrafrom install dir (/uer/bin/terraform)
+            Manage Jenkins-------> Global Tool Configuration----->Terraform---->uncheck auto install----->Provide name and terrafrom install dir (/usr/bin/terraform)
             
 3) Prepare and upload Terraform config file on GitHub.
       

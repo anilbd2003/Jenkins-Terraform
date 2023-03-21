@@ -11,3 +11,4 @@
       7.2) Manage Jenkins-------> Global tool configuration----->Terraform---->uncheck auto install----->give name and terrafrom installation dir
       
       7.3) 
+
